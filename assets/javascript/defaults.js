@@ -32,7 +32,7 @@ let scriptList = [
 	"theme",
 	"ads"
 ];
-let header = `
+/*let header = `
 	<div class="sidebarIcon sidebarIconClose" onclick="sidebarOpen()"></div>
 	<div class="sidebarIcon sidebarIconOpen sidebarIconHide" onclick="sidebarClose()"></div>
 	<a class="logoWiki" href="https://fonko007.github.io"></a>
@@ -46,7 +46,7 @@ let header = `
 		</div>
 		<div class="searchBox searchBoxHide"></div>
 	</div>
-`;
+`;*/
 /*let sidebar = `
 	<div class="sidebar sidebarClose">
 		<div class="sidebarTitle">Mục lục</div>

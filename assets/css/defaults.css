@@ -410,8 +410,10 @@ header {
 .dropdownTab {
 	padding-left: 10px;
 }
+/*==================================================*/
+/*Text color/decoration*/
 .textLink:link, .textLink:visited {
-	color: #1d4ed8;
+	color: #3b82f6;
 	text-decoration: none;
 }
 .textLink:hover {
@@ -422,18 +424,38 @@ header {
 	color: yellow;
 	text-decoration: underline;
 }
-.textEnity {
-    color: red;
+.textCommand {
+	color: #c67d4e;
 	cursor: text;
 	user-select: text;
+}
+.textSyntax {
+	color: #00e9ed;
+	cursor: text;
+	user-select: text;
+}
+.textNote {
+	color: #ff2626 !important;
+	cursor: zoom-in;
+	font-style: italic;
+}
+.textNote::before {
+	content: "(";
+}
+.textNote::after {
+	content: ")";
+}
+.textNote:hover {
+	font-size: 25px;
 }
 .textWip:after {
 	content: " (WIP) ";
 	color: yellow;
 }
-/*===========content==============*/
+/*==================================================*/
+/*Content*/
 .content {
-    display: flex;
+	display: flex;
 	flex-direction: column;
 }
 .contentHeader {
@@ -445,8 +467,6 @@ header {
 	padding: 10px;
 }
 .contentBox {
-    border-radius: 10px;
-    padding-left: 12px;
 	background-color: var(--bg);
 	border: var(--border);
 	margin: 15px;
@@ -474,7 +494,7 @@ header {
 	margin-left: 10px;
 }
 .contentText::before {
-	content: "-";
+	content: "▷";
 	display: inline-block;
 	margin-right: 3px;
 }

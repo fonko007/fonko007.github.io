@@ -47,7 +47,7 @@ let header = `
 		<div class="searchBox searchBoxHide"></div>
 	</div>
 `;
-let sidebar = `
+/*let sidebar = `
 	<div class="sidebar sidebarClose">
 		<div class="sidebarTitle">Mục lục</div>
 		<div class="sidebarLine"></div>
@@ -183,4 +183,4 @@ let footer = `
 		<div class="copyrightSide"></div>
 		<div class="copyright3">Hosted by <a class="textLink" href="https://github.com/" target="_blank">Github</a></div>
 	</div>
-`;
+`;*/
